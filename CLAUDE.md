@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**SOR-HD** (Sistema de Optimización de Rutas para Hospitalización Domiciliaria) is a route optimization platform for home hospitalization services. The system helps clinical teams optimize daily visit routes considering personnel skills, vehicle capacity, time windows, and geographic constraints.
+**FlamenGO!** (Sistema de Optimización de Rutas para Hospitalización Domiciliaria) is a route optimization platform for home hospitalization services. The system helps clinical teams optimize daily visit routes considering personnel skills, vehicle capacity, time windows, and geographic constraints.
 
 **Current Status**: This repository contains **planning and documentation only**. No implementation code exists yet. All development work should follow the specifications in this repository.
 

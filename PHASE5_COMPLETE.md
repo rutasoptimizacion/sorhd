@@ -6,7 +6,7 @@
 
 ## Overview
 
-Phase 5 implemented comprehensive GPS tracking and real-time route management capabilities for the SOR-HD system. This phase enables live vehicle tracking, visit status updates, ETA calculations, delay detection, and real-time WebSocket communication.
+Phase 5 implemented comprehensive GPS tracking and real-time route management capabilities for the FlamenGO! system. This phase enables live vehicle tracking, visit status updates, ETA calculations, delay detection, and real-time WebSocket communication.
 
 ---
 

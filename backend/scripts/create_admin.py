@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script to create an initial admin user for SOR-HD
+Script to create an initial admin user for FlamenGO!
 
 Usage:
     python scripts/create_admin.py
@@ -11,26 +11,27 @@ Default credentials:
     Role: admin
 """
 
-import sys
 import os
+import sys
 from pathlib import Path
 
 # Add backend to path
 backend_dir = Path(__file__).parent.parent
 sys.path.insert(0, str(backend_dir))
 
+import os
+
+from app.core.database import Base
+from app.core.security import hash_password
+from app.models.user import User
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.models.user import User
-from app.core.security import hash_password
-from app.core.database import Base
-import os
 
 # Get database URL from environment or use default
 DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql://sorhd_user:sorhd_password@localhost:5432/sorhd"
+    "DATABASE_URL", "postgresql://sorhd_user:sorhd_password@localhost:5432/sorhd"
 )
+
 
 def create_admin_user():
     """Create an admin user if it doesn't exist"""
@@ -57,7 +58,7 @@ def create_admin_user():
             full_name="Administrador",
             password_hash=hash_password("admin123"),
             role="admin",
-            is_active=True
+            is_active=True,
         )
 
         db.add(admin_user)
@@ -78,6 +79,7 @@ def create_admin_user():
         sys.exit(1)
     finally:
         db.close()
+
 
 if __name__ == "__main__":
     print("🔐 Creando usuario administrador...")

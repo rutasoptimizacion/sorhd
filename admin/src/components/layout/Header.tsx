@@ -12,12 +12,7 @@ import {
   Divider,
   ListItemIcon,
 } from '@mui/material'
-import {
-  Menu as MenuIcon,
-  AccountCircle,
-  Logout,
-  Settings,
-} from '@mui/icons-material'
+import { Menu as MenuIcon, AccountCircle, Logout, Settings } from '@mui/icons-material'
 import { useAppDispatch, useAppSelector } from '@/hooks'
 import { logout } from '@/store/authSlice'
 import { authService } from '@/services/authService'
@@ -60,7 +55,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
         </IconButton>
 
         <Typography variant="h6" component="div" sx={{ flexGrow: 0, mr: 2, fontWeight: 'bold' }}>
-          SOR-HD
+          FlamenGO!
         </Typography>
 
         <Typography variant="body2" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>

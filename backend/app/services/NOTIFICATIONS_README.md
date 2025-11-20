@@ -1,6 +1,6 @@
 # Notification System - Setup Guide
 
-Complete guide for setting up and using the SOR-HD notification system.
+Complete guide for setting up and using the FlamenGO! notification system.
 
 ---
 

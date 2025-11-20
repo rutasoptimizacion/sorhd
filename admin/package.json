@@ -1,7 +1,7 @@
 {
-  "name": "sor-hd-admin",
+  "name": "FlamenGO!-admin",
   "version": "1.0.0",
-  "description": "SOR-HD Admin Panel - Sistema de Optimización de Rutas para Hospitalización Domiciliaria",
+  "description": "FlamenGO! Admin Panel - Sistema de Optimización de Rutas para Hospitalización Domiciliaria",
   "type": "module",
   "scripts": {
     "dev": "vite",

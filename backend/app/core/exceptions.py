@@ -4,7 +4,7 @@ Custom Exception Classes
 
 
 class SORHDException(Exception):
-    """Base exception for SOR-HD application"""
+    """Base exception for FlamenGO! application"""
 
     def __init__(self, message: str, status_code: int = 500):
         self.message = message

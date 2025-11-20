@@ -2,7 +2,7 @@
 
 ## ✅ Completado
 
-Se ha creado exitosamente un script completo para poblar la base de datos con datos de prueba realistas para probar la **Phase 9 - Route Planning** del sistema SOR-HD.
+Se ha creado exitosamente un script completo para poblar la base de datos con datos de prueba realistas para probar la **Phase 9 - Route Planning** del sistema FlamenGO!.
 
 ## 📁 Archivos Creados
 

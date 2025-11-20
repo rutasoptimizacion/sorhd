@@ -20,7 +20,7 @@ curl http://localhost:8000/health
 
 Expected response:
 ```json
-{"status": "healthy", "service": "sor-hd-backend"}
+{"status": "healthy", "service": "FlamenGO!-backend"}
 ```
 
 ### 2. View API Documentation

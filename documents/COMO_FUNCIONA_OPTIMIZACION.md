@@ -1,6 +1,6 @@
 # Cómo Funciona la Optimización de Rutas
 
-## Guía No Técnica del Sistema de Optimización SOR-HD
+## Guía No Técnica del Sistema de Optimización FlamenGO!
 
 **Versión**: 1.0
 **Fecha**: Noviembre 2025
@@ -23,7 +23,7 @@
 
 ## Introducción
 
-El Sistema de Optimización de Rutas para Hospitalización Domiciliaria (SOR-HD) es un asistente inteligente que ayuda a planificar las visitas médicas domiciliarias del día.
+El Sistema de Optimización de Rutas para Hospitalización Domiciliaria (FlamenGO!) es un asistente inteligente que ayuda a planificar las visitas médicas domiciliarias del día.
 
 **¿Qué hace?** Toma la lista de pacientes que necesitan visitas y los vehículos/equipos médicos disponibles, y calcula automáticamente la mejor forma de organizar las rutas para:
 
@@ -893,7 +893,7 @@ flowchart TD
 
 ## Conclusión
 
-El Sistema de Optimización de Rutas SOR-HD es una herramienta poderosa que:
+El Sistema de Optimización de Rutas FlamenGO! es una herramienta poderosa que:
 
 ✅ **Automatiza** la planificación de rutas, ahorrando horas de trabajo manual
 ✅ **Optimiza** las visitas para maximizar cobertura y minimizar distancias
@@ -912,4 +912,4 @@ El Sistema de Optimización de Rutas SOR-HD es una herramienta poderosa que:
 
 **Versión del documento**: 1.0
 **Última actualización**: Noviembre 2025
-**Contacto**: Equipo de Desarrollo SOR-HD
+**Contacto**: Equipo de Desarrollo FlamenGO!

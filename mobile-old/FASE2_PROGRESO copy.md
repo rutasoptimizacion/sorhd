@@ -78,7 +78,7 @@ Creados 6 componentes reutilizables siguiendo el diseño para adultos mayores:
 #### LoginScreen (`src/screens/auth/LoginScreen.tsx`)
 
 **Características:**
-- Logo grande (80pt) y título SOR-HD
+- Logo grande (80pt) y título FlamenGO!
 - Input de usuario (56dp altura, fuente 22pt)
 - Input de contraseña con toggle mostrar/ocultar (icono 28dp)
 - Validación:

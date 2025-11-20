@@ -1,4 +1,4 @@
-# Sistema de Optimización de Rutas para Hospitalización Domiciliaria (SOR-HD)
+# Sistema de Optimización de Rutas para Hospitalización Domiciliaria (FlamenGO!)
 ## System Design Document
 
 **Version:** 1.0
@@ -29,7 +29,7 @@
 
 ## 1. Executive Summary
 
-This document describes the system design for SOR-HD, a route optimization platform for home hospitalization services. The design implements a three-tier architecture with:
+This document describes the system design for FlamenGO!, a route optimization platform for home hospitalization services. The design implements a three-tier architecture with:
 
 - **Backend**: Python-based REST API with optimization engine
 - **Web Admin Panel**: React.js administrative interface
@@ -2049,7 +2049,7 @@ class NearestNeighborOptimizer:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│ Header: SOR-HD | Search | Notifications | User Menu         │
+│ Header: FlamenGO! | Search | Notifications | User Menu         │
 ├──────────┬──────────────────────────────────────────────────┤
 │          │                                                   │
 │ Sidebar  │            Main Content Area                     │

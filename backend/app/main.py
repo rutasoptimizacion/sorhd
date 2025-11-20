@@ -4,14 +4,15 @@ FastAPI Main Application Entry Point
 
 import asyncio
 from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, Request, status
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from fastapi.exceptions import RequestValidationError
 
+from app.api.v1 import api_router
 from app.core.config import settings
 from app.core.exceptions import SORHDException
-from app.api.v1 import api_router
 from app.services.tracking.websocket_manager import keep_alive_task
 
 
@@ -32,13 +33,13 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="SOR-HD API",
+    title="FlamenGO! API",
     description="Sistema de Optimización de Rutas para Hospitalización Domiciliaria",
     version="1.0.0",
     docs_url="/api/docs",
     redoc_url="/api/redoc",
     openapi_url="/api/openapi.json",
-    lifespan=lifespan
+    lifespan=lifespan,
 )
 
 # CORS Configuration
@@ -54,7 +55,7 @@ app.add_middleware(
 # Global Exception Handlers
 @app.exception_handler(SORHDException)
 async def sorhd_exception_handler(request: Request, exc: SORHDException):
-    """Handle custom SOR-HD exceptions"""
+    """Handle custom FlamenGO! exceptions"""
     return JSONResponse(
         status_code=exc.status_code,
         content={"detail": exc.message},
@@ -71,7 +72,7 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         for key, value in error.items():
             if isinstance(value, bytes):
                 try:
-                    error_dict[key] = value.decode('utf-8')
+                    error_dict[key] = value.decode("utf-8")
                 except Exception:
                     error_dict[key] = str(value)
             else:
@@ -105,9 +106,9 @@ async def health_check():
 async def root():
     """Root endpoint"""
     return {
-        "message": "SOR-HD API - Sistema de Optimización de Rutas para Hospitalización Domiciliaria",
+        "message": "FlamenGO! API - Sistema de Optimización de Rutas para Hospitalización Domiciliaria",
         "version": "1.0.0",
-        "docs": "/api/docs"
+        "docs": "/api/docs",
     }
 
 

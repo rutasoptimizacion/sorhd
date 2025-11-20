@@ -1,7 +1,7 @@
 {
-  "name": "sor-hd-mobile",
+  "name": "FlamenGO!-mobile",
   "version": "1.0.0",
-  "description": "SOR-HD Mobile App - Sistema de Optimización de Rutas para Hospitalización Domiciliaria (Android Only)",
+  "description": "FlamenGO! Mobile App - Sistema de Optimización de Rutas para Hospitalización Domiciliaria (Android Only)",
   "main": "index.js",
   "scripts": {
     "android": "react-native run-android",

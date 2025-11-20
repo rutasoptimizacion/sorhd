@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {
   View,
   TextInput,
@@ -8,18 +8,21 @@ import {
   ScrollView,
   TouchableOpacity,
 } from 'react-native';
-import {useNavigation} from '@react-navigation/native';
-import {StackNavigationProp} from '@react-navigation/stack';
-import {useAuth} from '../../contexts/AuthContext';
-import {BigText, BigButton, ErrorAlert} from '../../components';
-import {elderlyTheme} from '../../theme/elderlyTheme';
-import {RootStackParamList} from '../../types';
+import { useNavigation } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { useAuth } from '../../contexts/AuthContext';
+import { BigText, BigButton, ErrorAlert } from '../../components';
+import { elderlyTheme } from '../../theme/elderlyTheme';
+import { RootStackParamList } from '../../types';
 
-type LoginScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Login'>;
+type LoginScreenNavigationProp = StackNavigationProp<
+  RootStackParamList,
+  'Login'
+>;
 
 const LoginScreen: React.FC = () => {
   const navigation = useNavigation<LoginScreenNavigationProp>();
-  const {login} = useAuth();
+  const { login } = useAuth();
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -31,7 +34,9 @@ const LoginScreen: React.FC = () => {
 
   const handleLogin = async () => {
     if (!isValid) {
-      setError('Usuario debe tener al menos 3 caracteres y contraseña 8 caracteres');
+      setError(
+        'Usuario debe tener al menos 3 caracteres y contraseña 8 caracteres',
+      );
       return;
     }
 
@@ -39,7 +44,7 @@ const LoginScreen: React.FC = () => {
       setLoading(true);
       setError(null);
 
-      await login({username, password});
+      await login({ username, password });
 
       // La navegación se maneja automáticamente por AppNavigator
       // basado en el estado de autenticación del AuthContext
@@ -70,16 +75,18 @@ const LoginScreen: React.FC = () => {
   return (
     <KeyboardAvoidingView
       style={styles.container}
-      behavior={Platform.OS === 'android' ? 'height' : 'padding'}>
+      behavior={Platform.OS === 'android' ? 'height' : 'padding'}
+    >
       <ScrollView
         contentContainerStyle={styles.scrollContent}
-        keyboardShouldPersistTaps="handled">
+        keyboardShouldPersistTaps="handled"
+      >
         <View style={styles.header}>
           <BigText variant="xxxl" style={styles.logo}>
             🏥
           </BigText>
           <BigText variant="xl" weight="bold" style={styles.title}>
-            SOR-HD
+            FlamenGO!
           </BigText>
           <BigText variant="md" color={elderlyTheme.colors.textSecondary}>
             Sistema de Rutas
@@ -121,7 +128,10 @@ const LoginScreen: React.FC = () => {
             <TouchableOpacity
               style={styles.eyeButton}
               onPress={() => setShowPassword(!showPassword)}
-              accessibilityLabel={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}>
+              accessibilityLabel={
+                showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'
+              }
+            >
               <BigText variant="lg">{showPassword ? '👁️' : '👁️‍🗨️'}</BigText>
             </TouchableOpacity>
           </View>

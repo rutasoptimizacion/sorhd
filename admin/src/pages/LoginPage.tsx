@@ -83,7 +83,7 @@ export default function LoginPage() {
           <CardContent sx={{ p: 4 }}>
             <Box sx={{ textAlign: 'center', mb: 3 }}>
               <Typography variant="h4" component="h1" gutterBottom fontWeight="bold">
-                SOR-HD
+                FlamenGO!
               </Typography>
               <Typography variant="body1" color="text.secondary">
                 Sistema de Optimización de Rutas
@@ -135,7 +135,11 @@ export default function LoginPage() {
               </Button>
             </form>
 
-            <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 2, textAlign: 'center' }}>
+            <Typography
+              variant="caption"
+              color="text.secondary"
+              sx={{ display: 'block', mt: 2, textAlign: 'center' }}
+            >
               Panel de Administración v1.0
             </Typography>
           </CardContent>

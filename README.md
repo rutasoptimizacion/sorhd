@@ -1,10 +1,10 @@
-# SOR-HD - Sistema de Optimización de Rutas para Hospitalización Domiciliaria
+# FlamenGO! - Sistema de Optimización de Rutas para Hospitalización Domiciliaria
 
 **Route Optimization Platform for Home Hospitalization Services**
 
 ## Descripción del Proyecto
 
-SOR-HD es una plataforma integral de optimización de rutas diseñada específicamente para servicios de hospitalización domiciliaria. El sistema ayuda a los equipos clínicos a optimizar las rutas diarias de visitas considerando las habilidades del personal, la capacidad de los vehículos, las ventanas de tiempo y las restricciones geográficas.
+FlamenGO! es una plataforma integral de optimización de rutas diseñada específicamente para servicios de hospitalización domiciliaria. El sistema ayuda a los equipos clínicos a optimizar las rutas diarias de visitas considerando las habilidades del personal, la capacidad de los vehículos, las ventanas de tiempo y las restricciones geográficas.
 
 ## Características Principales
 
@@ -293,4 +293,4 @@ Este proyecto es parte de un hackathon del Ministerio de Ciencia. Para contribui
 
 **Versión**: 1.0  
 **Última actualización**: 2025-11-14  
-**Mantenedores**: [Lista de mantenedores]
+**Mantenedores**: Carlos Roa - github@CarlosRoa

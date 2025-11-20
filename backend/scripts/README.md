@@ -1,6 +1,6 @@
 # Scripts de Base de Datos
 
-Este directorio contiene scripts útiles para gestionar la base de datos del sistema SOR-HD.
+Este directorio contiene scripts útiles para gestionar la base de datos del sistema FlamenGO!.
 
 ## Scripts Disponibles
 

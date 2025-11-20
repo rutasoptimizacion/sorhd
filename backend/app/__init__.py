@@ -1,5 +1,5 @@
 """
-SOR-HD Backend Application
+FlamenGO! Backend Application
 Sistema de Optimización de Rutas para Hospitalización Domiciliaria
 """
 

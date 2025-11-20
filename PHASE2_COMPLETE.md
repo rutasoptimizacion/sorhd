@@ -2,7 +2,7 @@
 
 ## Summary
 
-Phase 2 of the SOR-HD implementation has been successfully completed. The resource management layer with full CRUD operations for all entities is now functional.
+Phase 2 of the FlamenGO! implementation has been successfully completed. The resource management layer with full CRUD operations for all entities is now functional.
 
 ## Completed Tasks
 

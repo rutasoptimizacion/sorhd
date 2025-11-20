@@ -1,4 +1,4 @@
-# SOR-HD Admin Panel
+# FlamenGO! Admin Panel
 
 Panel de administración web para el Sistema de Optimización de Rutas para Hospitalización Domiciliaria.
 

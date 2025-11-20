@@ -1,4 +1,4 @@
-# SOR-HD Implementation Checklist
+# FlamenGO! Implementation Checklist
 ## Sistema de Optimización de Rutas para Hospitalización Domiciliaria
 
 **Version:** 1.0

@@ -1,4 +1,4 @@
-# SOR-HD Backend
+# FlamenGO! Backend
 
 Sistema de Optimización de Rutas para Hospitalización Domiciliaria - Backend API
 

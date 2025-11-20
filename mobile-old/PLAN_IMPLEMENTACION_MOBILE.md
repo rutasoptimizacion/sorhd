@@ -221,7 +221,7 @@ npm install
 import {open} from 'react-native-quick-sqlite';
 
 // Abrir/crear base de datos
-const db = open({name: 'sor-hd.db'});
+const db = open({name: 'FlamenGO!.db'});
 
 // Ejecutar query
 db.execute('CREATE TABLE IF NOT EXISTS routes (...)');
@@ -405,7 +405,7 @@ const response = await apiClient.get('/routes/my-routes');
 │                                     │
 │         [LOGO GRANDE]               │
 │                                     │
-│    SOR-HD                           │
+│    FlamenGO!                           │
 │    Sistema de Rutas                 │
 │                                     │
 ├─────────────────────────────────────┤

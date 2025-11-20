@@ -1,4 +1,4 @@
--- SOR-HD Database Schema
+-- FlamenGO! Database Schema
 -- Manual creation script as fallback
 
 -- Drop existing tables if any

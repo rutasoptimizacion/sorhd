@@ -1,4 +1,4 @@
-# Sistema de Optimización de Rutas para Hospitalización Domiciliaria (SOR-HD)
+# Sistema de Optimización de Rutas para Hospitalización Domiciliaria (FlamenGO!)
 ## Requirements Specification (EARS Format)
 
 **Version:** 1.0
@@ -10,10 +10,10 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document defines high-level requirements for the Route Optimization System for Home Hospitalization (SOR-HD). The system optimizes visit route planning and execution for clinical teams in home hospitalization settings.
+This document defines high-level requirements for the Route Optimization System for Home Hospitalization (FlamenGO!). The system optimizes visit route planning and execution for clinical teams in home hospitalization settings.
 
 ### 1.2 Scope
-The SOR-HD platform comprises three main components:
+The FlamenGO! platform comprises three main components:
 - **Backend Central**: Core optimization service with business logic and database management
 - **Admin Panel**: Web application for resource management and route planning
 - **Mobile Application**: Hybrid app with Clinical Team and Patient profiles

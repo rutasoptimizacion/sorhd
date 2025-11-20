@@ -1,5 +1,5 @@
 /**
- * TypeScript Types para SOR-HD Mobile App
+ * TypeScript Types para FlamenGO! Mobile App
  */
 
 // ========== USER & AUTH ==========
@@ -113,7 +113,12 @@ export interface CareType {
 // ========== CASE ==========
 
 export type CasePriority = 'low' | 'normal' | 'high' | 'urgent';
-export type CaseStatus = 'pending' | 'assigned' | 'in_progress' | 'completed' | 'cancelled';
+export type CaseStatus =
+  | 'pending'
+  | 'assigned'
+  | 'in_progress'
+  | 'completed'
+  | 'cancelled';
 
 export interface Case {
   id: number;
@@ -133,7 +138,13 @@ export interface Case {
 
 // ========== VISIT ==========
 
-export type VisitStatus = 'pending' | 'en_route' | 'arrived' | 'in_progress' | 'completed' | 'cancelled';
+export type VisitStatus =
+  | 'pending'
+  | 'en_route'
+  | 'arrived'
+  | 'in_progress'
+  | 'completed'
+  | 'cancelled';
 
 export interface Visit {
   id: number;
@@ -221,9 +232,9 @@ export type RootStackParamList = {
 
   // Clinical Stack
   RouteList: undefined;
-  VisitDetail: {visitId: number; routeId: number};
+  VisitDetail: { visitId: number; routeId: number };
 
   // Patient Stack
   VisitStatus: undefined;
-  TeamInfo: {visitId: number};
+  TeamInfo: { visitId: number };
 };

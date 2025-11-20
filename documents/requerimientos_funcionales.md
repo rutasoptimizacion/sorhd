@@ -1,9 +1,9 @@
 # Requerimientos Funcionales Detallados
-## Sistema de Optimización de Rutas para Hospitalización Domiciliaria (SOR-HD)
+## Sistema de Optimización de Rutas para Hospitalización Domiciliaria (FlamenGO!)
 
 **Versión:** 1.0
 **Fecha:** 2025-11-14
-**Basado en:** Documento de Requerimientos de Alto Nivel SOR-HD
+**Basado en:** Documento de Requerimientos de Alto Nivel FlamenGO!
 
 ---
 
@@ -22,7 +22,7 @@
 
 ### 1.1 Propósito del Documento
 
-Este documento especifica los requerimientos funcionales detallados del Sistema de Optimización de Rutas para Hospitalización Domiciliaria (SOR-HD), expandiendo los requerimientos de alto nivel definidos en el documento base.
+Este documento especifica los requerimientos funcionales detallados del Sistema de Optimización de Rutas para Hospitalización Domiciliaria (FlamenGO!), expandiendo los requerimientos de alto nivel definidos en el documento base.
 
 ### 1.2 Alcance
 

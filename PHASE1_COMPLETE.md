@@ -2,7 +2,7 @@
 
 ## Summary
 
-Phase 1 of the SOR-HD implementation has been successfully completed. The core backend infrastructure with authentication is now fully functional.
+Phase 1 of the FlamenGO! implementation has been successfully completed. The core backend infrastructure with authentication is now fully functional.
 
 ## Completed Tasks
 

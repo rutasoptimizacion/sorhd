@@ -1,5 +1,5 @@
 # ===========================
-# SOR-HD Backend Requirements
+# FlamenGO! Backend Requirements
 # ===========================
 
 # FastAPI Framework
